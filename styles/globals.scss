@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heroimage {
+  background-image: url("../Media/ZIMOPro.png");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.real-estate{
+  background-image: url("../Media/REAL ESTATE 1.jpg");
+  background-position:cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  color: white;
+  h2{
+    text-transform: uppercase;
+  }
+}
+.cars{
+  background-image: url("../Media/CARS.png");
+  background-position:cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  color: white;
+  h2{
+    text-transform: uppercase;
+  }
+}
+.yachts{
+  background-image: url("../Media/YACHTS.png");
+  background-position:cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  color: white;
+  h2{
+    text-transform: uppercase;
+  }
+}
+.watches{
+  background-image: url("../Media/WATCHES.png");
+  background-position:cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  color: white;
+  h2{
+    text-transform: uppercase;
+  }
+}
+
+.icons{
+  display: flex;
+  align-items: end;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+.property{
+  height: 400px;
+  width: 800px;
+  border-radius: 20px;
+}
+
+.sea-view{
+  padding-top: 300px;
+  padding-bottom: 300px;
+  background-image: url('../Media/Yacht\ 1821.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.global-vision{
+  background-image: url('../Media/World Map.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shape{
+  background-image: url('../Media/Yacht 1822.jpg');
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.car-neg{
+  position: absolute;
+  top: -300px;
+  border-radius: 25px;
+}
+.zimo-neg{
+  position: absolute;
+  top: -70px;
+  border-radius: 25px;
+}
