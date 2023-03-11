@@ -3,15 +3,15 @@ import React from "react";
 const WorldWide = () => {
   return (
     <>
-      <div className="container h-screen py-5">
-        <h4 className="text-center">
+      <div className="md:container lg:max-w-[1600px] md:max-w-[1300px] px-5 mx-auto h-auto py-8">
+        <h4 className="text-center uppercase">
           A REAL ESTATE AND PROPERTY PLATFORM THAT IS CHANGING THE WORLD
         </h4>
-        <div className="max-w-[1300px] grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto">
-          <div className="py-5 font-bold">
-            A REVOLUTIONARY PLATFORM <br />
-            <h3>ENTRIES - SELLERS </h3>
-            <br /> <h2>WORLDWIDE</h2>
+        <div className="grid lg:grid-cols-3 mx-auto">
+          <div className="py-5">
+            <h5>A REVOLUTIONARY PLATFORM</h5>
+            <h3 className="text-xl">ENTRIES - SELLERS </h3>
+             <h2 className="text-3xl">WORLDWIDE</h2>
           </div>
           <div />
           <div />
@@ -22,8 +22,8 @@ const WorldWide = () => {
               IMPORTATN PERSONAL TRANSACTIONS
             </h4>
           </div>
-          <div>
-            <h4 className="font-bold">The best of the best </h4>
+          <div className="col-start-1">
+            <h4 className="text-3xl">The best of the best </h4>
             <h4>
               A combination of automation and manual curation our pro agents and
               moderation team selects the highest quality listing on the market

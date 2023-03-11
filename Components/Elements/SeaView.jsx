@@ -3,7 +3,7 @@ import {BsArrowRight} from 'react-icons/bs'
 const SeaView = () => {
   return (
     <>
-      <div className="container sea-view">
+      <div className="md:container lg:max-w-[1600px] md:max-w-[1300px] sea-view">
         <div className="grid lg:grid-cols-3 gap-5">
             <div className="flex items-center justify-center">
                 <img src="assets/ZIMO ZIG W.png" alt=""/>

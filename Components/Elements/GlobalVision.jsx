@@ -3,11 +3,11 @@ import React from "react";
 const GlobalVision = () => {
   return (
     <>
-      <div className="container global-vision h-screen content-center">
-        <div className="">
-          <h2>GLOBAL VISION</h2>
-          <p>
-            With a remote culture, diversity is naturally in our dna. based
+      <div className="md:container lg:max-w-[1600px] md:max-w-[1300px] global-vision flex items-center justify-center  h-screen">
+        <div className="uppercase text-center">
+          <h2 className="text-3xl pb-4">GLOBAL VISION</h2>
+          <p className="text-xl">
+            With a remote culture, diversity is naturally in our dna. <br/> based
             across the globe, making up over 23 different nationalities.
           </p>
         </div>

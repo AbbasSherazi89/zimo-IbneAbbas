@@ -3,8 +3,7 @@ import React from 'react'
 const Last = () => {
   return (
     <>
-      <div className='shape'>
-
+      <div className='md:container lg:max-w-[1600px] md:max-w-[1300px] shape'>
       </div>
       <div className='container grid lg:grid-cols-3 mx-auto h-screen'>
         <div className='relative'>

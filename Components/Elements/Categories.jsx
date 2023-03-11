@@ -5,7 +5,7 @@ import { AiOutlineRight } from "react-icons/ai";
 const Categories = () => {
   return (
     <>
-      <div className="container">
+      <div className="md:container lg:max-w-[1600px] md:max-w-[1300px]">
         <div className="flex">
           <h5 className="font-bold pb-5">Our Categories</h5>
           <div className="icons">
