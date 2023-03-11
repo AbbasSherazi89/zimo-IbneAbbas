@@ -5,15 +5,15 @@ import { AiOutlineRight } from "react-icons/ai";
 const Categories = () => {
   return (
     <>
-      <div className="md:container lg:max-w-[1600px] md:max-w-[1300px]">
-        <div className="flex">
+      <div className="md:container lg:max-w-[1600px] md:max-w-[1300px] items-center px-5 mx-auto">
+        <div className="flex flex-">
           <h5 className="font-bold pb-5">Our Categories</h5>
           <div className="icons">
-            <AiOutlineLeft size={20} />
-            <AiOutlineRight size={20} />
+            <AiOutlineLeft size={25} />
+            <AiOutlineRight size={25} />
           </div>
         </div>
-        <div className="max-w-[1300px] grid lg:grid-cols-4 md:grid-cols-2 gap-5 mx-auto">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:justify-center gap-5 mx-auto">
           <div className="real-estate relative h-80 w-80">
             <h2 className="absolute inset-x-4 bottom-0 h-10 text-center">
               Real Estate
