@@ -12,11 +12,11 @@ const HomePage = () => {
     <>
       <CustomNav/>
       <Hero/>
-      <WorldWide/>
-      <Categories/>
-      <SeaView/>
-      <GlobalVision/>
-      <Last/>
+      {/* <WorldWide/> */}
+      {/* <Categories/> */}
+      {/* <SeaView/> */}
+      {/* <GlobalVision/> */}
+      {/* <Last/> */}
     </>
   )
 }
