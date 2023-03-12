@@ -1,7 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&family=Montserrat:wght@400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+@layer base {
+  body {
+    font-family: "Lato", sans-serif;
+  }
+}
 .heroimage {
   background-image: url("../Media/ZIMOPro.png");
   background-position: cover;
@@ -11,98 +17,94 @@
   color: white;
 }
 
-.real-estate{
+.real-estate {
   background-image: url("../Media/REAL ESTATE 1.jpg");
-  background-position:cover;
+  background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
   color: white;
-  h2{
-    text-transform: uppercase;
-  }
 }
-.cars{
+.cars {
   background-image: url("../Media/CARS.png");
-  background-position:cover;
+  background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
   color: white;
-  h2{
-    text-transform: uppercase;
-  }
 }
-.yachts{
+.yachts {
   background-image: url("../Media/YACHTS.png");
-  background-position:cover;
+  background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
   color: white;
-  h2{
-    text-transform: uppercase;
-  }
 }
-.watches{
+.watches {
   background-image: url("../Media/WATCHES.png");
-  background-position:cover;
+  background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
   color: white;
-  h2{
-    text-transform: uppercase;
-  }
 }
 
-.icons{
+.icons {
   display: flex;
   align-items: end;
 }
 
-h3{
-  text-transform: uppercase;
-}
-
-.property{
+.property {
   height: 400px;
   width: 800px;
   border-radius: 20px;
 }
 
-.sea-view{
-  padding-top: 300px;
-  padding-bottom: 300px;
-  background-image: url('../Media/Yacht\ 1821.jpg');
+.sea-view {
+  // padding-top: 300px;
+  // padding-bottom: 300px;
+  background-image: url("../Media/Yacht\ 1821.jpg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   color: white;
 }
 
-.global-vision{
-  background-image: url('../Media/World Map.svg');
+.global-vision {
+  background-image: url("../Media/World Map.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.shape{
-  background-image: url('../Media/Yacht 1822.jpg');
+.shape {
+  background-image: url("../Media/Yacht 1822.jpg");
   height: 90vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.car-neg{
+.car-neg {
   position: absolute;
   top: -300px;
   border-radius: 25px;
 }
-.zimo-neg{
+.zimo-neg {
   position: absolute;
   top: -70px;
   border-radius: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .car-neg {
+    top: 50px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .zimo-neg {
+    top: 150px;
+    border-radius: 10px;
+  }
 }

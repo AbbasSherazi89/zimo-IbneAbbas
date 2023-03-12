@@ -23,6 +23,9 @@ const CustomNav = () => {
                   <img src="assets/ZIMO W.png" alt=" zimo logo" width={100} />
                 </a>
                 <h3 className="text-white pt-2">About</h3>
+                {/* <a className="ml-[450px]" href="/">
+                  <img src="assets/ZIMO ZIG W.png" alt="" width={70}/>
+                </a> */}
               </div>
               <div className="md:hidden">
                 <button

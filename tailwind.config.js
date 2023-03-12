@@ -13,7 +13,7 @@ module.exports = {
       padding:'3rem'
     },
     screens: {
-      'sm': '567px',
+      'sm': '300px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -29,8 +29,8 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      backgroundImage: {
-      
+      fontFamily: {
+      lato:"'Lato', sans-serif",
       }
     },
   },

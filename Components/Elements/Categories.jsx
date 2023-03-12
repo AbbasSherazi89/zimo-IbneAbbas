@@ -35,17 +35,17 @@ const Categories = () => {
             </h2>
           </div>
         </div>
-        <div>
-            <h3 className="text-center py-5">one platform for all premium listings unlimited potential </h3>
-            <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-5 mx-auto">
-                <div className="flex flex-wrap items-center justify-center">
+        <div className="pt-5">
+            <h3 className="text-center py-5 uppercase text-3xl">one platform for all premium listings <br/>  </h3>
+            <h4 className="text-center uppercase text-xl">unlimited potential</h4>
+            <div className="grid lg:grid-cols-3 md:grid-cols-1 py-5 mx-auto">
+                <div className="flex flex-col justify-center py-3">
                     <img src="assets/ZIMO B.svg" alt="" width={300}/>
-                    <h2>One Source Entry tickets</h2>
-                    <p>For all Premium Listings</p>
+                    <h2 className="uppercase pt-5">One Source <br/> <span className="text-3xl"> Entry tickets <br/></span> <span className="text-sm">For all Premium Listings</span></h2>
                 </div>
                 <div className="col-span-2 mx-auto">
                     <img className="property" src="assets/Property 1821.jpg" alt="property" />
-                    <h2 className="py-5 text-center">Let your dreams find you</h2>
+                    <h2 className="py-5 text-center uppercase">Let your dreams find you</h2>
                 </div>
             </div>
         </div>
